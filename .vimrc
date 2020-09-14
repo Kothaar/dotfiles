@@ -29,6 +29,8 @@ Plugin 'vimwiki/vimwiki'
 
 Plugin 'ycm-core/YouCompleteMe'
 
+Plugin 'fxn/vim-monochrome'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -40,6 +42,8 @@ filetype plugin indent on    " required
 " :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
 " :PluginSearch foo - searches for foo; append `!` to refresh local cache
 " :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
+"
+colorscheme monochrome
 
 python3 from powerline.vim import setup as powerline_setup
 python3 powerline_setup()

@@ -6,5 +6,5 @@
 [[ $- != *i* ]] && return
 
 alias ls='ls --color=auto'
-PS1='[\u@\h \W]\$ '
+PS1='\W $ '
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME' 
