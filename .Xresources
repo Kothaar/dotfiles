@@ -1,0 +1,67 @@
+!! Appearance
+urxvt.termName: rxvt-unicode
+urxvt.scrollBar: false
+urxvt.background: black
+urxvt.foreground: gray
+
+!! Font prefferenes
+!urxvt.font: xft:DejaVu Sans Mono:pixelsize=20
+!urxvt.boldFont: xft:DejaVu Sans Mono:pixelsize=13:weight=bold
+urxvt*font: xft: Source Code Pro:size=10
+*.boldFont: xft:Source Code Pro:style=Bold:size=10
+*.italicFont: xft:Source Code Pro:style=Italic:size=10
+*.boldItalicFont: xft:Source Code Pro:style=Bold Italic:size=10
+
+
+urxvt.letterSpace: -1
+!! Larger history limit
+urxvt.saveLines: 1000000
+
+Xcursor.size: 16
+
+!! Perl extensions
+!urxvt.perl-ext-common: default,matcher,font-size
+!! Open urls in browser with Control-Click
+!urxvt.urlLauncher: /usr/bin/firefox
+!urxvt.matcher.button: C1
+!! Change font size on Control-Plus/Minus
+!URxvt.keysym.Control-0x2b: perl:font-size:increase
+!URxvt.keysym.Control-0x2d: perl:font-size:decrease
+
+! special
+*.foreground:   #c7ccd1
+*.background:   #1c2023
+*.cursorColor:  #c7ccd1
+
+! black
+*.color0:       #1c2023
+*.color8:       #747c84
+
+! red
+*.color1:       #c7ae95
+*.color9:       #c7ae95
+
+! green
+*.color2:       #95c7ae
+*.color10:      #95c7ae
+
+! yellow
+*.color3:       #aec795
+*.color11:      #aec795
+
+! blue
+*.color4:       #ae95c7
+*.color12:      #ae95c7
+
+! magenta
+*.color5:       #c795ae
+*.color13:      #c795ae
+
+! cyan
+*.color6:       #95aec7
+*.color14:      #95aec7
+
+! white
+*.color7:       #c7ccd1
+*.color15:      #f3f4f5
+
